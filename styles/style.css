@@ -69,6 +69,23 @@ section {
     object-fit: contain;
 }
 
+
+/*Animação*/
+
+.banner .logo img {
+    animation: pulse 1s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0%, 100%{
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+
 .banner .banner-content button {
     color: #31a8dd;
     font-size: 1rem;
